@@ -1,13 +1,48 @@
-# William Shakespeare Tribute Page
+# TASK 1: Calculator Web Application
+A simple and responsive calculator built using HTML, CSS, and JavaScript. This project performs basic arithmetic operations and provides a clean user interface inspired by modern calculator designs.
 
+## Features
+- Addition, Subtraction, Multiplication, and Division
+- Percentage calculations
+- Square Root (√) operation
+- Positive/Negative (±) toggle
+- Delete last entered character
+- Clear entire calculation
+- ANS button to reuse the previous result
+- Decimal number support
+- Responsive design for different screen sizes
+- Keyboard support for faster calculations
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## Project Structure
+```text
+Calculator/
+│
+├── calc.html
+├── calc.css
+├── calc.js
+└── README.md
+```
+
+## To run the project
+1. Download or clone the project files.
+2. Ensure all files are in the same folder.
+3. Open `index.html` in any modern web browser.
+No additional installation or dependencies are required.
+
+
+
+# TASK 2: William Shakespeare Tribute Page
 This is a simple tribute webpage dedicated to **William Shakespeare**, one of the most influential playwrights and poets in history. The page presents a brief overview of his life, a famous quote, a tribute video, and information about his contributions to English literature.
 
 ## About the Project
-
 The goal of this project was to create a visually appealing and responsive tribute page using only HTML and CSS. The design focuses on simplicity while highlighting Shakespeare's legacy through multimedia content and a clean layout.
 
 ## Features
-
 - Responsive webpage design
 - Embedded video section
 - Famous Shakespeare quote with image display
@@ -16,14 +51,12 @@ The goal of this project was to create a visually appealing and responsive tribu
 - Mobile-friendly layout
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - Flexbox
 - Responsive Design
 
 ## Project Structure
-
 ```
 ├── tribute_page.html
 ├── tribute_page.css
@@ -32,8 +65,7 @@ The goal of this project was to create a visually appealing and responsive tribu
 └── README.md
 ```
 
-## To View the Project
-
+## To run the Project
 1. Download all project files.
 2. Keep the HTML, CSS, image, and video files in the same folder.
 3. Open `tribute_page.html` in any web browser.
