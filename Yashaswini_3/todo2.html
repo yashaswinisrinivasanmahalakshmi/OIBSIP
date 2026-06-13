@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>FlowTask · Smart Daily Todo App</title>
+  <link rel="stylesheet" href="todo2.css">
+</head>
+<body>
+<div class="app-container">
+  <div class="hero">
+    <h1>📋 FlowTask · Daily Manager</h1>
+    <div class="sub">✨ Add tasks, mark completion, edit or delete — full timeline tracking</div>
+    <div class="add-task-panel">
+      <div class="input-group" style="flex:3">
+        <label>📌 Task description</label>
+        <input type="text" id="taskTitleInput" placeholder="e.g., Finish project proposal, Buy groceries..." autocomplete="off">
+      </div>
+      <div class="input-group" style="flex:1">
+        <label>📅 Optional note / details</label>
+        <textarea id="taskDetailsInput" rows="1" placeholder="Extra info (optional)" style="resize: vertical;"></textarea>
+      </div>
+      <div>
+        <button id="addTaskBtn" class="add-btn">+ Add task</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <!-- PENDING TASKS column -->
+    <div class="col">
+      <div class="col-header">
+        <h2>⏳ Pending Tasks</h2>
+        <span class="badge" id="pendingCount">0</span>
+      </div>
+      <div id="pendingList" class="task-list">
+        <div class="empty-msg">✨ No pending tasks — add one!</div>
+      </div>
+    </div>
+
+    <!-- COMPLETED TASKS column -->
+    <div class="col">
+      <div class="col-header">
+        <h2>✅ Completed Tasks</h2>
+        <span class="badge" id="completedCount">0</span>
+      </div>
+      <div id="completedList" class="task-list">
+        <div class="empty-msg">🏆 Completed tasks will appear here</div>
+      </div>
+    </div>
+  </div>
+  <footer>⚡ Click edit ✏️ to modify any task | Delete 🗑️ removes permanently | Dates & timestamps are automatic</footer>
+</div>
+<script src="todo2.js"></script>
+</body>
+</html>
